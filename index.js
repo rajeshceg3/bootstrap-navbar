@@ -1,10 +1,11 @@
 // Import stylesheets
 import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>BootStrap Navbar</h1>`;
+appDiv.innerHTML = `<h1>BootStrap Navbar</h1>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">My Navbar</a>
@@ -24,4 +25,4 @@ appDiv.innerHTML = `<h1>BootStrap Navbar</h1>`;
       </li>
     </ul>
   </div>
-</nav>
+</nav>`;
